@@ -1,75 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo</title>
     <link rel="stylesheet" href="style.css">
+    <title>Currículo - Guilherme Melgaço</title>
 </head>
 <body>
-    <div class="curriculo">
-        <div class="container">
-            <!-- Barra lateral -->
-            <aside class="sidebar">
-                <img src="sua-foto.jpg" alt="Foto de perfil" class="foto-perfil">
 
-                <div class="contatos">
-                    <h2 class="titulo">Contato</h2>
-                    <div class="contato-item">
-                        <img src="icone-email.png" alt="Email" class="icone">
-                        <span>seuemail@email.com</span>
-                    </div>
-                    <div class="contato-item">
-                        <img src="icone-telefone.png" alt="Telefone" class="icone">
-                        <span>(99) 99999-9999</span>
-                    </div>
-                </div>
-
-                <div class="competencias">
-                    <h2 class="titulo">Competências</h2>
-                    <div class="lista">
-                        <div class="lista-item">
-                            <span class="bullet"></span> Programação
-                        </div>
-                        <div class="lista-item">
-                            <span class="bullet"></span> Automação
-                        </div>
-                    </div>
-                </div>
-
-                <div class="soft-skills">
-                    <h2 class="titulo">Soft Skills</h2>
-                    <div class="lista">
-                        <div class="lista-item">
-                            <span class="bullet"></span> Trabalho em equipe
-                        </div>
-                        <div class="lista-item">
-                            <span class="bullet"></span> Comunicação
-                        </div>
-                    </div>
-                </div>
-
-                <div class="certificados">
-                    <h2 class="titulo">Certificados</h2>
-                    <div class="lista">
-                        <div class="lista-item">
-                            <span class="bullet"></span> Curso X
-                        </div>
-                        <div class="lista-item">
-                            <span class="bullet"></span> Curso Y
-                        </div>
-                    </div>
-                </div>
-            </aside>
-
-            <!-- Conteúdo principal -->
-            <main class="conteudo">
-                <h1>Seu Nome</h1>
-                <h2>Cargo ou área de atuação</h2>
-                <p>Descrição sobre você.</p>
-                <!-- Adicione mais seções conforme necessário -->
-            </main>
+    <header class="perfil">
+        <img src="img/foto-de-perfil.png" alt="Foto de Perfil" class="foto-perfil">
+        <div class="info-pessoal">
+            <h1>Guilherme Melgaço</h1>
+            <h2>Estagiário</h2>
+            <ul class="contatos">
+                <li><img src="img/phone.svg" alt="Telefone"> (31) 9 7363-1681</li>
+                <li><img src="img/email.svg" alt="E-mail"> guiimarcus30</li>
+                <li><img src="img/location-on.svg" alt="Localização"> Belo Horizonte</li>
+                <li><img src="img/linkedin.svg" alt="LinkedIn"> /gmpmelgaco</li>
+            </ul>
         </div>
-    </div>
+    </header>
+
+    <main>
+        <section class="resumo">
+            <h3>Resumo Profissional</h3>
+            <p>Concluí o curso técnico em Mecatrônica em 2018, o que me guiou para Engenharia de Controle e Automação. Tenho experiência em sistemas supervisórios, programação de PLCs, dashboards e relatórios para suporte à decisão.</p>
+        </section>
+
+        <section class="competencias">
+            <h3>Competências</h3>
+            <ul>
+                <li>Microsoft Excel ★★★★★</li>
+                <li>Power BI ★★★★★</li>
+                <li>SmartSheet ★★★★☆</li>
+                <li>Power Apps ★★★☆☆</li>
+                <li>Power Automate ★★★☆☆</li>
+            </ul>
+        </section>
+
+        <section class="habilidades">
+            <h3>Habilidades</h3>
+            <h4>Soft Skills</h4>
+            <ul>
+                <li>Trabalho em equipe</li>
+                <li>Capacidade de adaptação</li>
+                <li>Resiliência</li>
+                <li>Proatividade</li>
+            </ul>
+            <h4>Hard Skills</h4>
+            <ul>
+                <li>Capacidade analítica</li>
+                <li>Aprendizagem ágil</li>
+                <li>Modelagem 2D e 3D</li>
+                <li>Desenvolvimento de dashboards</li>
+            </ul>
+        </section>
+
+        <section class="formacao">
+            <h3>Formação Acadêmica</h3>
+            <ul>
+                <li><strong>Engenharia de Controle e Automação</strong> - PUC Minas (2022 - 2025)</li>
+                <li><strong>Engenharia Mecânica</strong> - PUC Minas (2020 - 2021)</li>
+                <li><strong>Técnico em Mecatrônica</strong> - SENAI (2017 - 2018)</li>
+            </ul>
+        </section>
+
+        <section class="experiencia">
+            <h3>Histórico Profissional</h3>
+            <article>
+                <h4>Estagiário - Anglo American (2022 - Atual)</h4>
+                <ul>
+                    <li>Desenvolvimento de dashboards para KPI’s de segurança (Power BI);</li>
+                    <li>Criação de aplicativos para inspeções (Power Apps);</li>
+                    <li>Automação de fluxos de trabalho (Power Automate);</li>
+                    <li>Gerenciamento de bancos de dados (SmartSheet).</li>
+                </ul>
+            </article>
+            <article>
+                <h4>Jovem Aprendiz - Stellantis (2021 - 2022)</h4>
+                <ul>
+                    <li>Suporte a sistemas supervisórios e programação de PLCs;</li>
+                    <li>Criação de planilhas e documentos para manutenção;</li>
+                    <li>Atividades relacionadas à metodologia SPW.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Guilherme Melgaço</p>
+    </footer>
+
 </body>
 </html>
