@@ -1,0 +1,98 @@
+:root {
+  --cor-primaria: #ffffff;
+  --cor-secundaria: var(--gray-2);
+  --cor-destaque: var(--cor-1);
+  --fonte-titulo: "Montserrat Alternates-SemiBold", Helvetica;
+  --fonte-texto: "Montserrat-SemiBold", Helvetica;
+}
+
+.curriculo {
+  display: flex;
+  justify-content: center;
+  background-color: var(--cor-primaria);
+  width: 100%;
+}
+
+.curriculo .container {
+  width: 2480px;
+  height: 3508px;
+  display: flex;
+}
+
+.sidebar {
+  width: 825px;
+  height: 100%;
+  background-color: var(--cor-destaque);
+  opacity: 0.1;
+  position: relative;
+}
+
+.foto-perfil {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+}
+
+.contatos, .competencias, .soft-skills, .certificados {
+  padding: 20px;
+}
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-family: var(--fonte-titulo);
+  font-size: 37.5px;
+  color: var(--cor-secundaria);
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+}
+
+.titulo {
+  font-family: var(--fonte-texto);
+  font-size: 37.5px;
+  color: var(--cor-secundaria);
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.barra-progresso {
+  display: flex;
+  gap: 5px;
+}
+
+.barra-progresso div {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: var(--cor-destaque);
+}
+
+.barra-progresso div.vazio {
+  opacity: 0.35;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.lista-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--fonte-texto);
+  font-size: 37.5px;
+  color: var(--cor-secundaria);
+}
+
+.lista-item .bullet {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--cor-destaque);
+}
